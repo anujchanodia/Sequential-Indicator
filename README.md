@@ -11,7 +11,7 @@ Configurable Scrolling: Support for left-to-right and right-to-left text scrolli
 
 🛠️ Hardware Requirements
 
-Microcontroller: Arduino (Uno, Nano, ESP32, etc.)
+Microcontroller: Arduino Mega 2560
 LED Strip: WS2812B addressable LED strip (256 LEDs)
 Matrix Configuration: 32 columns × 8 rows (256 total LEDs)
 Data Pin: Digital pin 3 (configurable)
@@ -141,8 +141,4 @@ Check LED strip type (WS2812B vs WS2811)
 Verify matrix dimensions (ROW/COL settings)
 Confirm wiring follows serpentine pattern
 
-Flickering display:
 
-Add capacitor (1000μF) across power lines
-Use shorter/thicker data wires
-Check for loose connections
